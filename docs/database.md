@@ -28,7 +28,7 @@ xata auth login
 
 6. Now Upload Schemas Into Your Database By This Command
 ```bash
-xata schema upload schema.json
+xata schema upload schemas.json
 
 xata codegen
 ```
