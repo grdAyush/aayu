@@ -1,0 +1,6 @@
+.env
+node_modules
+.vscode
+package-lock.json
+database.yml
+discord-invite.yml

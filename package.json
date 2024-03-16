@@ -1,0 +1,39 @@
+{
+  "name": "aayu",
+  "version": "3.0.0",
+  "description": "Aayu Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Wow is this a test?\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Ayush",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.44",
+    "@xata.io/client": "^0.27.0",
+    "axios": "^1.6.4",
+    "chalk": "^2.4.2",
+    "chartjs-node-canvas": "^4.1.6",
+    "chartjs-plugin-gradient": "^0.5.1",
+    "common-tags": "^1.8.2",
+    "discord-invite": "github:grdAyush/discord-invite",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "genius-lyrics": "^4.4.6",
+    "jsdom": "22.1.0",
+    "moment": "^2.30.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^7.3.1",
+    "ms": "^2.1.3",
+    "musicard-bun": "^1.6.8",
+    "node-fetch": "^2.7.0",
+    "node-os-utils": "^1.3.7",
+    "os-utils": "^0.0.14",
+    "riffy": "^1.0.3",
+    "riffy-spotify": "^1.0.0",
+    "simply-djs": "^4.1.1",
+    "undici": "^5.28.2"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "databaseURL": "",
+  "codegen": {
+    "output": "src/handlers/xata.js",
+    "moduleType": "cjs"
+  }
+}
+
