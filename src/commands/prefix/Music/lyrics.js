@@ -1,7 +1,7 @@
-        const { Message, PermissionFlagBits, EmbedBuilder } = require('discord.js');
+const { Message, PermissionFlagBits, EmbedBuilder } = require('discord.js');
 const ExtendedClient = require('../../../class/ExtendedClient');
 const { Client } = require("genius-lyrics")
-const genius = new Client("eeC4tgK5oHtRGQYOzsHvbtRHYUppV1T1rGIuwM0PNs403rDEqoxtebypuPIUhLNj")
+const genius = new Client(process.env.GENIUS_API)
                           
 module.exports = {
     structure: {
