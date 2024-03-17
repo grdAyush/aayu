@@ -9,12 +9,12 @@
 ```bash
 npm install -g @xata.io/cli
 ```
-2. Login to Your Account
+2. Login to Your Account (in terminal)
 ```bash
 xata auth login
 ```
 
-3. Copy the end Point of the database by clicking on database it will look like this
+3. Copy the end Point of the database by clicking on database on xata website it will look like this
 
 ```bash
  https://xxxx-s-workspace-qurnbs.your-region.sh/db/DB-name:branch-name
@@ -26,7 +26,7 @@ xata auth login
 
 5. Go to Your Account Settings And Create a New API Key and Paste it in  `.env `file.
 
-6. Now Upload Schemas Into Your Database By This Command
+6. Now Upload Schemas Into Your Database By This Command (in terminal)
 ```bash
 xata schema upload schemas.json
 
