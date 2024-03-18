@@ -22,9 +22,7 @@ module.exports = {
         const latency = msg.createdTimestamp - message.createdTimestamp;
         const apiLatency = client.ws.ping;
 
-        await msg.edit({ content: " ", embeds: [ new EmbedBuilder().setDescription(`\`\`\`asciidoc
-Latency     :: ${latency}ms
-API Latency :: ${apiLatency}ms\`\`\``).setColor(client.color)] });
+        await msg.edit({ content: " ", embeds: [ new EmbedBuilder().setThumbnail(client.user.displayAvatarURL()).setTitle(`__**Latency Check**__`).setDescription(`**・Message :** ${latency}ms\n**・NodeJS :** ${apiLatency}ms`).setColor(client.color)] });
 
 
     }

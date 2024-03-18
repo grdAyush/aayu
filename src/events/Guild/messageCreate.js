@@ -59,13 +59,13 @@ if(message.content === `<@${client.user.id}>`) {
         .setStyle(ButtonStyle.Link)
         .setLabel("Invite Me")
         .setURL(`https://discord.com/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands`)
-        .setEmoji("<:a_inv:1189528187110178896>"),
+        .setEmoji("➕"),
 
         new ButtonBuilder()
         .setStyle(ButtonStyle.Link)
         .setLabel("Support Server")
         .setURL("https://s.aayubot.me/support")
-        .setEmoji("<:a_sup:1189529332683640832>"),
+        .setEmoji("⭐"),
         )
     ]
 })

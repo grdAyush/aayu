@@ -40,7 +40,7 @@ client.guilds.cache.forEach(async (guild) => {
 
         if (ch) {
           player.setTextChannel(ch.id)
-          ch.send({ embeds: [ new EmbedBuilder().setThumbnail("https://images-ext-2.discordapp.net/external/rHlRfsr8bka2VRTE1q7Fl_1sza21viTsjsiJbCHvbRk/https/cdn.discordapp.com/emojis/1192392279936221195.gif").setDescription(" **Reboot Completed <:hypsquadevent:1194912687419834459>**\nI am Back Guys, Play the songs and let the party continue").setColor(client.color)]})
+          ch.send({ embeds: [ new EmbedBuilder().setThumbnail("https://images-ext-2.discordapp.net/external/rHlRfsr8bka2VRTE1q7Fl_1sza21viTsjsiJbCHvbRk/https/cdn.discordapp.com/emojis/1192392279936221195.gif").setDescription(" **Reboot Completed ✅**\nI am Back Guys, Play the songs and let the party continue").setColor(client.color)]})
         }
     
         console.log(`[Player] Reconnected in ${guild.id}`)

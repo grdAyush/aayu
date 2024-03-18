@@ -247,11 +247,11 @@ cooldown: 5000
                   .setTitle("Bot's Statistics")
                   .addFields({
                     name: "Memory Usage",
-                    value: `\`\`\`asciidoc\n${clientStats}\`\`\``
+                    value: `\`\`\`js\n${clientStats}\`\`\``
                   },
                   {
                     name: "Memory Usage",
-                    value: `\`\`\`asciidoc\n${serverStats}\`\`\``
+                    value: `\`\`\`js\n${serverStats}\`\`\``
                   })
                   .setTimestamp()
                   .setImage('attachment://chart.png')
