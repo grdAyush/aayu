@@ -113,7 +113,7 @@ const tables = [
 const DatabaseClient = (0, client_1.buildClient)();
 const defaultOptions = {
   databaseURL:
-    "https://Ayush-Dangi-s-workspace-qurnbs.ap-southeast-2.xata.sh/db/Aayu",
+   process.env.XATA_DATABASE,
 };
 /** @typedef { import('./types').DatabaseSchema } DatabaseSchema */
 /** @extends DatabaseClient<DatabaseSchema> */
