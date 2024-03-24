@@ -5,6 +5,7 @@ exports.getXataClient = exports.XataClient = void 0;
 const client_1 = require("@xata.io/client");
 /** @typedef { import('./types').SchemaTables } SchemaTables */
 /** @type { SchemaTables } */
+require("dotenv").config();
 const tables = [
   {
     name: "GuildSchema",
