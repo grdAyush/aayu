@@ -6,11 +6,11 @@ const { Collection } = require("discord.js")
 require("dotenv").config();
 const nodes = [
     {
-        name: "Main",
-        host: process.env.host,
-        port: process.env.port,
-        password: process.env.password,
-        secure: process.env.secure
+        name: process.env.NODE_NAME || "",
+        host: process.env.NODE_HOST || "",
+        port: process.env.NODE_PORT || 2000,
+        password: process.env.NODE_PASS || "",
+        secure: process.env.NODE_SECURR || false
     }
 ]
 /**
@@ -18,8 +18,8 @@ const nodes = [
  */
 module.exports = async (client) => {
     const spotify = new Spotify.Spotify({
-        clientId: process.env.SPOTIFY_CLIENT_ID,
-        clientSecret: process.env.SPOTIFY_CLIENT_SECRET
+        clientId: process.env.SPOTIFY_CLIENT || "",
+        clientSecret: process.env.SPOTIFY_SECRET || ""
     });
     client.riffy = new Riffy.Riffy(client, nodes, {
         send: (payload) => {
