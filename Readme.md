@@ -23,7 +23,7 @@
 
 ## 🔗 Resource Links
 
-- 🤖 Demo Bot: [Invite Here](https://discord.com/api/oauth2/authorize?client_id=1180001367801208913&permissions=8&scope=applications.commands%20bot)
+
 - 🤝 Support Server: [Join Here](https://discord.gg/GsPYuqdYZC)
 
 
